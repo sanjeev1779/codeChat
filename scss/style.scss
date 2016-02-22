@@ -1,0 +1,52 @@
+$primary-color: green;
+$width: 10px;
+
+.container {
+    margin: $width;
+}
+    
+.heading {
+    font-size: 20px;
+    color: $primary-color;
+}
+
+.coding-area {
+    padding-left :30px;
+}
+
+.ip-op-section {
+    margin-left: $width;
+    div {
+        float: left;
+        margin-right: $width;
+    }
+}
+
+textarea {
+    border-radius: 6px;
+    padding: $width;
+}
+
+.padding {
+    padding: $width;
+}
+
+.margin {
+    margin: $width;
+}
+
+.margin-left {
+    margin-left: $width;   
+}
+
+.margin-right {
+    margin-right: $width;   
+}
+
+.margin-bottom {
+    margin-bottom: $width;   
+}
+
+.margin-top {
+    margin-top: $width;   
+}

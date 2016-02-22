@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="thirdparty/bootstrap/bootstrap.min.css">
+        <script type="text/javascript" src="thirdparty/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="thirdparty/bootstrap/bootstrap.min.js"></script>
+        <script type="text/javascript" src="thirdparty/angular/angular.min.js"></script>
+        <script type="text/javascript" src="thirdparty/angular/angular-resource.min.js"></script>
+        <script type="text/javascript" src="js/config.js"></script>
+        <script type="text/javascript" src="js/constants.js"></script>
+
+        <!-- angularjs -->
+        <!-- <script type="text/javascript" src="app/code/services/CodeSvcs.js"></script> -->
+        <script type="text/javascript" src="app/code/controllers/Controller.js"></script>
+
+
+    </head>
+    <body ng-app="codeChatApp">
+        <div class="container row">
+            <h1 class="heading">Coding Area</h1>
+            <!-- Coding Compiler Section -->
+            <div class="coding-area" ng-controller="CodeCompilerCtrl">
+                <div class="coding-panel form-group">
+                    <textarea rows="20" cols="100" placeholder="Enter code" ng-model="code"></textarea>
+                </div>
+                <div class="ip-op-section">
+                    <div class="input-panel form-group">
+                        <textarea rows="5" cols="40" placeholder="Enter input" ng-model="input"></textarea>
+                    </div>
+                    <div class="ouput-panel form-group">
+                        <textarea rows="5" cols="40" placeholder="Output of program..." ng-model="output"></textarea>
+                    </div>
+                    <button type="submit" ng-click="submitCode()" class="btn btn-primary">RUN</button>
+                </div>
+            </div>
+            <!-- Coding Compiler Section Ends here -->
+        </div>
+    </body>
+</html>

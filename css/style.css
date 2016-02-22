@@ -1,0 +1,37 @@
+.container {
+  margin: 10px; }
+
+.heading {
+  font-size: 20px;
+  color: green; }
+
+.coding-area {
+  padding-left: 30px; }
+
+.ip-op-section {
+  margin-left: 10px; }
+  .ip-op-section div {
+    float: left;
+    margin-right: 10px; }
+
+textarea {
+  border-radius: 6px;
+  padding: 10px; }
+
+.padding {
+  padding: 10px; }
+
+.margin {
+  margin: 10px; }
+
+.margin-left {
+  margin-left: 10px; }
+
+.margin-right {
+  margin-right: 10px; }
+
+.margin-bottom {
+  margin-bottom: 10px; }
+
+.margin-top {
+  margin-top: 10px; }

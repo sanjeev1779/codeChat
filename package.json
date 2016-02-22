@@ -1,0 +1,31 @@
+{
+  "name": "codechat",
+  "version": "1.0.0",
+  "description": "code in pair with chatting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjeev1779/codeChat.git"
+  },
+  "keywords": [
+    "codechat"
+  ],
+  "author": "sanjeev1779",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanjeev1779/codeChat/issues"
+  },
+  "homepage": "https://github.com/sanjeev1779/codeChat#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-sass": "^2.2.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1"
+  }
+}
